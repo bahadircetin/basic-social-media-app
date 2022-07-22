@@ -1,0 +1,31 @@
+{
+  "name": "basic-social-media-app",
+  "version": "1.0.0",
+  "description": "Just for learning purposes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahadircetin/basic-social-media-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahadircetin/basic-social-media-app/issues"
+  },
+  "homepage": "https://github.com/bahadircetin/basic-social-media-app#readme",
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
